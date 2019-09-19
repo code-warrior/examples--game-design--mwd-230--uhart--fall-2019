@@ -15,6 +15,6 @@ processing () {
 ```
 
 3. Save it, then quite The Terminal
-4. To use it, run `processing PATH-TO-SKETCH FOLDER`
+4. To use it, run `processing PATH-TO-SKETCH-FOLDER`
 
 ## Windows (pending)
