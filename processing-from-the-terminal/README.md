@@ -9,7 +9,7 @@ processing () {
    if [ $# -eq 1 ]; then
       /usr/local/bin/processing-java --sketch=$(pwd)/"$1" --run
    else
-      echo 'The Processing command has failed. Check the syntax of your command and try again.'
+      echo 'Only the Processing command was found on the command line. The path to the sketch much also be included.'
    fi
 }
 ```
