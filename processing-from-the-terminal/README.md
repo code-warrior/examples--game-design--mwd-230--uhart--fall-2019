@@ -18,8 +18,7 @@ processing () {
 4. To use it, run `processing PATH_TO_SKETCH_FOLDER`. For example, if you had a sketch called `my_sketch` on the Desktop, you would navigate to the Desktop in The Terminal, then type `processing my_sketch`.
 
 ## Windows (Cygwin)
-
-The install procedure is exactly like the macOS instructions, except the code below is slightly different.
+The install procedure is exactly like the Mac install, except that you use the following code snippet, instead.
 
 ```bash
 processing () {
