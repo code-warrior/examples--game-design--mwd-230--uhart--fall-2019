@@ -17,4 +17,14 @@ processing () {
 3. Save it, then quite The Terminal
 4. To use it, run `processing PATH-TO-SKETCH-FOLDER`
 
-## Windows (pending)
+## Windows (Cygwin)
+
+```bash
+processing () {
+   if [ $# -eq 1 ]; then
+      /cygdrive/c/Program\ Files/processing-3.5.3/processing-java.exe --sketch=$(cygpath -aw .)/"$1" --run
+   else
+      echo 'Only the Processing command was found on the command line. The path to the sketch much also be included.'
+   fi
+}
+```
