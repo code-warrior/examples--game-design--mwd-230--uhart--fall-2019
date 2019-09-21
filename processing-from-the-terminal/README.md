@@ -1,9 +1,9 @@
 # Running/Building Sketches From Your CLI (Command Line Interface)
 
-## Mac (The Terminal)
+## Installation
+### Mac (The Terminal)
 1. From your home folder, open `.bash_aliases` in your favorite editor.
 2. Add the following function to the file.
-
 ```bash
 processing () {
    if [ $# -eq 1 ]; then
@@ -13,12 +13,10 @@ processing () {
    fi
 }
 ```
+3. Save it, then quit The Terminal.
 
-3. Save it, then quite The Terminal.
-4. To use it, run `processing PATH_TO_SKETCH_FOLDER`. For example, if you had a sketch called `my_sketch` on the Desktop, you would navigate to the Desktop in The Terminal, then type `processing my_sketch`.
-
-## Windows (Cygwin)
-The install procedure is exactly like the Mac install, except that you use the following code snippet, instead.
+### Windows (Cygwin)
+The install procedure is exactly like that for the Mac, except that you use the following code snippet, instead.
 
 ```bash
 processing () {
@@ -29,3 +27,6 @@ processing () {
    fi
 }
 ```
+
+## Usage
+To build simple sketches, simply run `processing PATH_TO_SKETCH_FOLDER`, where `PATH_TO_SKETCH_FOLDER` is a relative path to your sketch. For example, if you had a sketch called `my_sketch` on the Desktop, you would navigate to the Desktop in your CLI, then type `processing my_sketch`.
