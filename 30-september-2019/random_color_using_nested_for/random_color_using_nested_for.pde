@@ -2,11 +2,7 @@
 final int SPACING = 100;
 final int BLOCK_SIZE = 100;
 
-// Note the difference between the two:
-//
 fullScreen();
-// or
-// size(displayWidth, displayHeight);
 
 // What happens if the values to i and/or j change?
 for (int i = 0; i < width; i += SPACING) {
