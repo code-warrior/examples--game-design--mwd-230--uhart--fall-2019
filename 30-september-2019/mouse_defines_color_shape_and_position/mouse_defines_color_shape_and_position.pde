@@ -15,7 +15,7 @@ float red, green, blue;
 final int ALPHA_LEVEL = 10;
 
 void setup() {
-  size(displayWidth, displayHeight);
+  fullScreen();
 }
 
 void draw() {
