@@ -22,7 +22,7 @@ void draw() {
   background(255);
 
   // The following two if statements test whether the ball has collided with the
-  // left of right edges of the canvas.
+  // left or right edges of the canvas.
 
   // Handle the right edge case.
   if ((x + (DIAMETER / 2)) > displayWidth) {
