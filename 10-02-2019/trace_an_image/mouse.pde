@@ -68,6 +68,7 @@ void drawRightEar() {
     Note: 0 degrees (radians(0)) is 3:00 o’clock.
   */
   arc(455.0, 245.0, EAR_WIDTH, EAR_HEIGHT, radians(-200.0), radians(90.0));
+  // arc(455.0, 245.0, EAR_WIDTH, EAR_HEIGHT, startRadians, stopRadians);
 }
 
 void drawEars() {
