@@ -62,8 +62,10 @@ void drawRightEar() {
     1. Set the midpoint of the arc to 455, 245.
     2. Set the arc’s width to EAR_WIDTH.
     3. Set the arc’s height to EAR_HEIGHT.
-    4. Fill the top half of the arc (180).
-    5. Fill the bottom half of the arc (100).
+    4. Begin drawing the arc at about 8:30 o’clock (-200).
+    5. Finish drawing the arc at about 6:00 o’clock (90).
+
+    Note: 0 degrees (radians(0)) is 3:00 o’clock.
   */
   arc(455.0, 245.0, EAR_WIDTH, EAR_HEIGHT, radians(-200.0), radians(90.0));
 }
