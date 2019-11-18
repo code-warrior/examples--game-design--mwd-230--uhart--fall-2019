@@ -1,0 +1,17 @@
+[
+  {
+    "size": {
+      "width": 1000,
+      "height": 500
+    },
+    "background_color": {
+      "red": 200,
+      "green": 127,
+      "blue": 127
+    },
+    "display_typeface": "fonts/Bebas_Neue/BebasNeue-Regular.ttf",
+    "reading_typeface": "fonts/Roboto/Roboto-Light.ttf",
+    "display_typeface_size": 32,
+    "reading_typeface_size": 24
+  }
+]
