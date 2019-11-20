@@ -3,7 +3,7 @@ Original code at https://processing.org/examples/mousefunctions.html
 */
 float centerXofBox;
 float centerYofBox;
-int HALF_BOX_SIZE = 75;
+final int HALF_BOX_SIZE = 75;
 boolean mouseIsOverBox = false;
 boolean mouseButtonIsDownOverBox = false;
 float xOffset = 0.0;
