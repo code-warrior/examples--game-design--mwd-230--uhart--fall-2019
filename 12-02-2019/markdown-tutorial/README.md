@@ -32,7 +32,7 @@ gulp serve
 ```
 
 ```sql
-SELECT * FROM passwords WHERE username like "%edbob%"
+SELECT * FROM passwords WHERE username="edbob"
 ```
 
 ```java
